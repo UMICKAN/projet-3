@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="inner">
+          <span class="logo"><a href="/">Logo</a></span>
+          <nav>
+            <ul>
+              <li><a href="#hero" class="nav-item">Top</a></li>
+              <li><a href="#about" class="nav-item">About</a></li>
+              <li><a href="#projet" class="nav-item">Projets</a></li>
+              <li><a href="#sandbox" class="nav-item">Sandbox</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="content">
+        <!-- =================================================================================== -->
+        <section class="hero" id="hero">
+          <div class="wrapper">
+            <div class="inner">
+              <div class="tag">@UNCREATIVE</div>
+            </div>
+            <div class="inner bottom">
+              <div class="bloc">
+                <div class="bloc-inner">
+                  <span><span class="color">On</span>line</span>
+                  <div class="asset diag-repeat"></div>
+                </div>
+                <h1>Visual Design</h1>
+              </div>
+              <div class="bloc">
+                <p>
+                  Donec ullamcorper nisi ligula, eget cursus lacus gravida a.
+                  Integer nec ex sed mauris tristique pretium. Proin in quam
+                  laoreet, interdum dui quis, vehicula nisl. Aliquam tempus
+                  aliquet iaculis.
+                </p>
+                <a href="/#about" class="button"
+                  ><span>En savoir plus</span>
+                  <div class="icon-button">
+                    <svg
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 100 100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="1712576941"
+                      class="svg"
+                      data-icon-name="Arrow_92223.svg"
+                    >
+                      <g>
+                        <path
+                          d="m2.3008 11.141l8.8398-8.8398 88.387 88.387-8.8398 8.8398z"
+                        ></path>
+                        <path d="m6.25 87.5h93.75v12.5h-93.75z"></path>
+                        <path d="m87.5 6.25h12.5v93.75h-12.5z"></path>
+                      </g>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper"></div>
+        </section>
+        <!-- =================================================================================== -->
+        <div class="tagline">
+          <div class="wrapper">
+            <div class="tag">@another_section</div>
+            <div class="line"></div>
+            <div class="bloc diag-repeat"></div>
+          </div>
+        </div>
+        <!-- =================================================================================== -->
+        <section class="about" id="about">
+          <div class="wrapper top">
+            <h2>
+              Donec sit amet diam a nibh efficitur rutrum eget et neque duis id
+              nibh ut neque laoreet vehiculas <span class="color">.</span>
+            </h2>
+            <div class="asset diag-repeat"></div>
+          </div>
+          <div class="wrapper bottom">
+            <div class="col left">
+              <div class="inner top">
+                <p>Aliquam fermentum neque at ex mattis</p>
+                <p>
+                  Sed ut justo libero. Donec porta nisi <b>sed erat</b> volutpat
+                </p>
+              </div>
+              <div class="inner bottom">
+                <p>
+                  Sed feugiat, tellus sit amet ullamcorper faucibus, eros velit
+                  sollicitudin dui, et congue nunc elit sed nisi. Aliquam sed
+                  diam ex. Duis lectus lectus, mattis fringilla velit non,
+                  rhoncus euismod justo. Morbi volutpat nunc eget rutrum
+                  sollicitudin.
+                </p>
+                <button popovertarget="popup" class="button">
+                  <span>Ouvrir la popup</span>
+                  <div class="icon-button">
+                    <svg
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 100 100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      id="1712576941"
+                      class="svg"
+                      data-icon-name="Arrow_92223.svg"
+                    >
+                      <g>
+                        <path
+                          d="m2.3008 11.141l8.8398-8.8398 88.387 88.387-8.8398 8.8398z"
+                        ></path>
+                        <path d="m6.25 87.5h93.75v12.5h-93.75z"></path>
+                        <path d="m87.5 6.25h12.5v93.75h-12.5z"></path>
+                      </g>
+                    </svg>
+                  </div>
+                </button>
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+                <div popover class="show-about" id="popup">
+                  <div class="wrapper">
+                    <button
+                      popovertarget="popup"
+                      class="close-popup"
+                      popovertargetaction="hide"
+                    >
+                      CLOSE
+                    </button>
+                    <div class="inner left">
+                      <div class="inner-bloc top">
+                        <div class="bloc name">
+                          <span>About</span>
+                          <div class="asset diag"></div>
+                        </div>
+                        <div class="bloc">
+                          <span class="date"> 05/10/2026</span>
+                        </div>
+                      </div>
+                      <div class="inner-bloc content-projet"></div>
+                    </div>
+                    <div class="inner right"></div>
+                  </div>
+                  <!-- ======================================== -->
+                  <!-- ======================================== -->
+                </div>
+              </div>
+            </div>
+            <div class="col mid">
+              <div class="bloc diag"></div>
+            </div>
+            <div class="col right">
+              <div class="control">
+                <button onclick="play()">▶</button>
+                <button onclick="pause()">⏸</button>
+                <button onclick="slow()">▶▶</button>
+              </div>
+              <div class="bloc diag">
+                <model-viewer
+                  id="perso"
+                  class="model-3d about-3d"
+                  src="/assets/stormtrooper_walk.glb"
+                  interaction-prompt="none"
+                  disable-pan
+                  disable-zoom
+                  camera-controls
+                  camera-orbit="140deg 90deg 4m"
+                  camera-target="0 120m 0"
+                  min-camera-orbit="30deg 30deg auto"
+                  max-camera-orbit="190deg 140deg auto"
+                ></model-viewer>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- =================================================================================== -->
+        <div class="tagline">
+          <div class="wrapper">
+            <div class="tag">@another_section</div>
+            <div class="line"></div>
+            <div class="bloc diag-repeat"></div>
+          </div>
+        </div>
+        <!-- =================================================================================== -->
+        <section class="projet" id="projet">
+          <div class="wrapper top">
+            <h2>
+              Nullam sit amet purus eu leo egestas convallis sed vitae mi
+              <span class="color">.</span>
+            </h2>
+            <div class="asset diag-repeat"></div>
+          </div>
+          <div class="wrapper bottom">
+            <div class="col left">
+              <p>
+                Sed feugiat, tellus sit amet ullamcorper <b>faucibus</b>, eros
+                velit sollicitudin dui, et congue nunc elit sed nisi. Aliquam
+                sed diam ex. Duis lectus lectus, mattis fringilla velit non,
+                rhoncus euismod justo. Morbi volutpat nunc eget rutrum
+                sollicitudin.
+              </p>
+              <div class="bloc diag"></div>
+            </div>
+            <div class="col right">
+              <!-- ======= POPUP-PROJET #1 ============= -->
+              <button popovertarget="popup-projet-1" class="link-projet">
+                <div class="inner-link">
+                  <span class="name-link">Morbi posuere et urna</span>
+                  <span class="tag-link">Design - Corner - Univers</span>
+                </div>
+                <div class="line"></div>
+                <div class="icone-link">
+                  <svg
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 100 100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="1712576941"
+                    class="svg"
+                    data-icon-name="Arrow_92223.svg"
+                  >
+                    <g>
+                      <path
+                        d="m2.3008 11.141l8.8398-8.8398 88.387 88.387-8.8398 8.8398z"
+                      ></path>
+                      <path d="m6.25 87.5h93.75v12.5h-93.75z"></path>
+                      <path d="m87.5 6.25h12.5v93.75h-12.5z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+              <div popover class="show-projet-1" id="popup-projet-1">
+                <div class="wrapper">
+                  <button
+                    popovertarget="popup-projet-1"
+                    class="close-popup"
+                    popovertargetaction="hide"
+                  >
+                    CLOSE
+                  </button>
+                  <div class="inner left">
+                    <div class="inner-bloc top">
+                      <div class="bloc name">
+                        <span>Projet #1</span>
+                        <div class="asset diag"></div>
+                      </div>
+                      <div class="bloc">
+                        <span class="date"> 05/10/2026</span>
+                      </div>
+                    </div>
+                    <div class="inner-bloc content-projet"></div>
+                  </div>
+                  <div class="inner right">
+                    <div class="bloc-img diag"></div>
+                    <div class="bloc-img diag"></div>
+                    <div class="bloc-img diag"></div>
+                    <div class="bloc-img diag"></div>
+                  </div>
+                </div>
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+              </div>
+
+              <!-- ======= POPUP-PROJET #2 ============= -->
+              <button popovertarget="popup-projet-2" class="link-projet">
+                <div class="inner-link">
+                  <span class="name-link">Morbi posuere et urna</span>
+                  <span class="tag-link"
+                    >Front - Uncreativement - fringual</span
+                  >
+                </div>
+                <div class="line"></div>
+                <div class="icone-link">
+                  <svg
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 100 100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="1712576941"
+                    class="svg"
+                    data-icon-name="Arrow_92223.svg"
+                  >
+                    <g>
+                      <path
+                        d="m2.3008 11.141l8.8398-8.8398 88.387 88.387-8.8398 8.8398z"
+                      ></path>
+                      <path d="m6.25 87.5h93.75v12.5h-93.75z"></path>
+                      <path d="m87.5 6.25h12.5v93.75h-12.5z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+              <div popover class="show-projet-2" id="popup-projet-2">
+                <div class="wrapper">
+                  <button
+                    popovertarget="popup-projet-2"
+                    class="close-popup"
+                    popovertargetaction="hide"
+                  >
+                    CLOSE
+                  </button>
+                  <div class="inner left">
+                    <div class="inner-bloc top">
+                      <div class="bloc name">
+                        <span>Projet #2</span>
+                        <div class="asset diag"></div>
+                      </div>
+                      <div class="bloc">
+                        <span class="date"> 05/10/2026</span>
+                      </div>
+                    </div>
+                    <div class="inner-bloc content-projet"></div>
+                  </div>
+                  <div class="inner right"></div>
+                </div>
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+              </div>
+
+              <!-- ======= POPUP-PROJET #3 ============= -->
+              <button popovertarget="popup-projet-3" class="link-projet">
+                <div class="inner-link">
+                  <span class="name-link"
+                    >Donec mollis rutrum dolor in pretium</span
+                  >
+                  <span class="tag-link">Neque - Laoreet - Vehicula</span>
+                </div>
+                <div class="line"></div>
+                <div class="icone-link">
+                  <svg
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 100 100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="1712576941"
+                    class="svg"
+                    data-icon-name="Arrow_92223.svg"
+                  >
+                    <g>
+                      <path
+                        d="m2.3008 11.141l8.8398-8.8398 88.387 88.387-8.8398 8.8398z"
+                      ></path>
+                      <path d="m6.25 87.5h93.75v12.5h-93.75z"></path>
+                      <path d="m87.5 6.25h12.5v93.75h-12.5z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+              <div popover class="show-projet-3" id="popup-projet-3">
+                <div class="wrapper">
+                  <button
+                    popovertarget="popup-projet-3"
+                    class="close-popup"
+                    popovertargetaction="hide"
+                  >
+                    CLOSE
+                  </button>
+                  <div class="inner left">
+                    <div class="inner-bloc top">
+                      <div class="bloc name">
+                        <span>Projet #3</span>
+                        <div class="asset diag"></div>
+                      </div>
+                      <div class="bloc">
+                        <span class="date"> 05/10/2026</span>
+                      </div>
+                    </div>
+                    <div class="inner-bloc content-projet"></div>
+                  </div>
+                  <div class="inner right"></div>
+                </div>
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+              </div>
+
+              <!-- ======= POPUP-PROJET #4 ============= -->
+              <button popovertarget="popup-projet-4" class="link-projet">
+                <div class="inner-link">
+                  <span class="name-link">Aliquam sed diame</span>
+                  <span class="tag-link"
+                    >Front - Uncreativement - fringual</span
+                  >
+                </div>
+                <div class="line"></div>
+                <div class="icone-link">
+                  <svg
+                    width="100%"
+                    height="100%"
+                    viewBox="0 0 100 100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="1712576941"
+                    class="svg"
+                    data-icon-name="Arrow_92223.svg"
+                  >
+                    <g>
+                      <path
+                        d="m2.3008 11.141l8.8398-8.8398 88.387 88.387-8.8398 8.8398z"
+                      ></path>
+                      <path d="m6.25 87.5h93.75v12.5h-93.75z"></path>
+                      <path d="m87.5 6.25h12.5v93.75h-12.5z"></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+              <div popover class="show-projet-4" id="popup-projet-4">
+                <div class="wrapper">
+                  <button
+                    popovertarget="popup-projet-4"
+                    class="close-popup"
+                    popovertargetaction="hide"
+                  >
+                    CLOSE
+                  </button>
+                  <div class="inner left">
+                    <div class="inner-bloc top">
+                      <div class="bloc name">
+                        <span>Projet #4</span>
+                        <div class="asset diag"></div>
+                      </div>
+                      <div class="bloc">
+                        <span class="date"> 05/10/2026</span>
+                      </div>
+                    </div>
+                    <div class="inner-bloc content-projet"></div>
+                  </div>
+                  <div class="inner right"></div>
+                </div>
+                <!-- ======================================== -->
+                <!-- ======================================== -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- =================================================================================== -->
+        <div class="tagline">
+          <div class="wrapper">
+            <div class="tag">@another_section</div>
+            <div class="line"></div>
+            <div class="bloc diag-repeat"></div>
+          </div>
+        </div>
+        <!-- =================================================================================== -->
+        <section class="SandBox" id="sandbox">
+          <div class="wrapper top">
+            <h2>
+              SandBox
+              <span class="color">.</span>
+            </h2>
+            <div class="asset diag-repeat"></div>
+          </div>
+        </section>
+        <!-- =================================================================================== -->
+        <section class="section vide"></section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+  <!-- Script de model viewer -->
+  <script
+    type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.2.0/model-viewer.min.js"
+  ></script>
+  <!-- lecteur video -->
+  <script>
+    const perso = document.getElementById("perso");
+
+    // Lecture auto au chargement (animation figée au départ)
+    perso.addEventListener("load", () => {
+      perso.timeScale = 1;
+      perso.play();
+    });
+
+    function play() {
+      perso.timeScale = 1;
+      perso.play();
+    }
+
+    function pause() {
+      perso.pause();
+    }
+
+    function slow() {
+      perso.timeScale = 0.1;
+      perso.play();
+    }
+  </script>
+</html>
