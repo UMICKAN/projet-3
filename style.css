@@ -462,7 +462,7 @@ section.hero {
   & .wrapper {
     flex: 1;
     height: 100%;
-    padding: 4% 2%;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     border-left: var(--border);
@@ -501,13 +501,21 @@ section.hero {
         gap: 1rem;
       }
     }
+
     & .etiquette {
+      position: absolute;
+      right: 0;
+      bottom: 4rem;
       height: 200px;
       width: 20%;
       padding: 1rem;
       background: var(--cg);
+      display: flex;
+      align-items: flex-end;
 
       span {
+        width: 50%;
+        line-height: 1.2;
       }
     }
 
