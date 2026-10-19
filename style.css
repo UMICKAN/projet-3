@@ -506,6 +506,7 @@ section.hero {
       position: absolute;
       right: 0;
       bottom: 4rem;
+      min-width: 150px;
       height: 200px;
       width: 20%;
       padding: 1rem;
@@ -794,6 +795,46 @@ section.vide {
 }
 
 /******* Sandbox ******/
+
+section.sandbox {
+  & .bottom {
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: var(--border);
+
+    & .row-link {
+      & .bloc-link {
+        display: flex;
+        border: var(--border);
+
+        & .col-diag {
+          width: 20px;
+          border-right: var(--border);
+        }
+
+        & .right {
+          padding: 1rem;
+
+          & .top-bloc-link {
+            .bloc.diag {
+              height: 40px;
+              width: 40px;
+              border: var(--border);
+            }
+          }
+
+          & .bottom-bloc-link {
+            & .icone-link {
+              height: 40px;
+              width: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 /* ============== Footer =============== */
 
